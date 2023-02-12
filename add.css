@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+  }
+  
+  .form-group {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea,
+  select,
+  input[type="number"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin-top: 10px;
+  }
+  
+  .add{
+    cursor: pointer;
+    padding: 8px 15px;
+   font-weight: bold;
+   font-size: 15px;
+  }
+  

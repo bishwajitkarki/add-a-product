@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add.css">
+    <title>add product</title>
+</head>
+<body>
+    <meta charset="utf-8">
+    <title>Add Product</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add Product</h1>
+      <form>
+        <div class="form-group">
+          <label for="product-name">Product Name:</label>
+          <input type="text" id="product-name" required>
+        </div>
+        <div class="form-group">
+          <label for="brand-name">brand name:</label>
+          <input type="text" id="brand-name" required>
+        </div>
+        <div class="form-group">
+          <label for="brand-name">your store name:</label>
+          <input type="text" id="store-name" required>
+        </div>
+        <div class="form-group">
+          <label for="product-description">Product Description:</label>
+          <textarea id="product-description" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="product-price">actual Price:</label>
+          <input type="number" id="actual-price" step="1" required>
+        </div>
+        <div class="form-group">
+          <label for="discount-price">discount Price:</label>
+          <input type="number" id="discount-price" step="1" required>
+        </div>
+        <div class="form-group">
+          <label for="product-category">Product Category:</label>
+          <select id="product-category" required>
+            <option value="">Select Category</option>
+            <option value="electronics">Electronics</option>
+            <option value="home-garden">Home & Garden</option>
+            <option value="home-garden">women fashion</option>
+            <option value="electronics">men fashion</option>
+            <option value="home-garden">sport & outdoors</option>
+            <option value="home-garden">home & life style</option>
+            <option value="home-garden">babies & toys</option>
+            <option value="home-garden">health & beauty</option>
+            <option value="home-garden">motor,tools & diy</option>
+          </select>
+          
+        </div>
+        <div class="form-group">
+          <label for="product-image">Product Image:</label>
+          <input type="file" id="product-image" class="img-1" accept="image/*" required>
+        </div>
+        <button class="add" type="submit">Add Product</button>
+      </form>
+    </div>
+</body>
+</html>
